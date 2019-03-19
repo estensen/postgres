@@ -19,5 +19,7 @@ pqgotest=# SELECT * FROM places;
 ## Run
 ```sh
 $ go run main.go
+Successfully connected to pqgotest
+The temperature at Snøhetta is -17
 ```
 
