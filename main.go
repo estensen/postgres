@@ -58,6 +58,6 @@ func main() {
 	}
 
 	for _, report := range weatherReports.WeatherReports {
-		fmt.Printf("The weather data for %s was read from the db\n", report.Place)
+		fmt.Printf("The lowest temperature at %s was %d°C\n", report.Place, report.LowTemp)
 	}
 }

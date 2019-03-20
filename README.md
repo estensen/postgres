@@ -20,6 +20,7 @@ pqgotest=# SELECT * FROM places;
 ```sh
 $ go run main.go
 Successfully connected to pqgotest
-The temperature at Snøhetta is -17
+The lowest temperature at Snøhetta was -17°C
+The lowest temperature at Glittertind was -11°C
 ```
 
