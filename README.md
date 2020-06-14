@@ -6,7 +6,7 @@ $ createdb pqgotest
 $ psql -d pqgotest -a -f populate_db.sql
 ```
 
-Test that db was populated
+Test that db was populated:
 ```sh
 $ psql pqgotest
 pqgotest=# SELECT * FROM places; 
