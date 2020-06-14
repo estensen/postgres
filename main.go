@@ -50,6 +50,9 @@ func main() {
 			&report.Precipitation,
 			&report.Date,
 		)
+		if err != nil {
+			log.Fatal(err)
+		}
 		weatherReports.WeatherReports = append(weatherReports.WeatherReports, report)
 	}
 	err = rows.Err()
